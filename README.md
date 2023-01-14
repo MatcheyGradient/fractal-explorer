@@ -18,9 +18,11 @@ The julia set constants will be based on the MouseX and MouseY respective to the
 The real constant is based on the MouseX and the imaginary constant is based on the MouseY.  
 
 If you want to change the Random (pre - made) colors, you can change in the getColor function:
+```
     case 0:
-    float a = (iterations == -1) ? -1f : iterations / 1000f + .5f;
-    return getHSBColor((a == -1) ? .35f : a, iterations, a);
+      float a = (iterations == -1) ? -1f : iterations / 1000f + .5f;
+      return getHSBColor((a == -1) ? .35f : a, iterations, a);
+```
 Yeah.. its a bit messy but just mess around with the numbers and really cool colors can pop out!  
 Hvae fun.
 
