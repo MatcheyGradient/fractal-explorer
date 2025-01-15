@@ -1,3 +1,5 @@
+dont use this its so slow 😭😭
+
 # Fractal Explorer
 Slow but cool mandelbrot and julia set explorer in java.
 
